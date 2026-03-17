@@ -49,15 +49,42 @@ h1{
 img{
   width: 400px;
   height: 300px;
+  
 }
 
 body{
-  background-image: url(./images/photo-realistic-mechanics-garage_1254967-12123.avif);
+  background-image: url(./images/background.webp);
   background-size: cover;
   backdrop-filter: brightness(50%);
+  width: 100vw;
+  height: 100vh;
+  border: 10px solid black;
 }
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box ;
+}
+
+
 
 section img{
   width: 500px;
   height: 300px;
+}
+
+img:hover {
+  filter: blur(0px);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+body {
+  padding: 5px;
+}
+
+fieldset{
+  margin: 20px;
+  padding: 20px 20px 0;
 }
