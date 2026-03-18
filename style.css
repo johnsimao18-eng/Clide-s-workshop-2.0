@@ -1,16 +1,12 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing:border-box ;
-}
+
 
 
 html,
 body {
-  margin: 10px;
-  padding: 10px;
-  width: 100vw;
-  height: 100vh;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 
 }
 
@@ -43,50 +39,44 @@ ul li a:hover {
 
 }
 
-p{
+p {
    
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
   color: white;
+   text-align: justify;
 }
 
-h1{
+h1 {
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 8px;
 }
 
-img{
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 8px;
+  padding: 8px;
+}
+
+img {
   width: 400px;
   height: 300px;
   margin: 8px;
 }
 
-body{
+body {
   background-image: url(./images/download\ \(4\).jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  width: 100vw;
-  background-size: cover;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 }
 
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-
-
-fieldset{
+fieldset {
   margin: 20px;
   padding: 20px 20px 0;
 }
 
 legend{
-  width: fit-content;
-  height: auto;
+  color: white;
+  text-transform: uppercase;
 }
 
 .contact-us {
@@ -194,3 +184,6 @@ button[type="submit"]:hover {
   border-radius: 20px;
 }
 
+span{
+  color:white
+}
